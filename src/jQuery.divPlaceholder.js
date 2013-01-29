@@ -1,5 +1,5 @@
 (function ($) {
-	$('div[data-placeholder]').on('keydown keypress input', function() {
+	$(document).on('change keydown keypress input', 'div[data-placeholder]', function() {
 		if (this.textContent) {
 			this.dataset.divPlaceholderContent = 'true';
 		}
