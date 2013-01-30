@@ -1,0 +1,33 @@
+{
+    "name": "divPlaceholder",
+    "title": "jQuery.divPlaceholder.js",
+    "description": "A mostly-CSS-with-a-bit-of-jQuery micro-plugin to emulate the placeholder attribute for contenteditable divs. The placeholder text cosmetically resembles an input’s placeholder. All markup used is valid. The placeholder text does not appear in the DOM. The placeholder text disappears when the `div` contains any text or when it has input focus.",
+    "keywords": [
+        "div",
+        "placeholder",
+        "contenteditable",
+        "input"
+    ],
+    "version": "0.1.0",
+    "author": {
+        "name": "Spruce Media",
+        "url": "http://sprucemedia.com/"
+    },
+    "maintainers": [
+        {
+            "name": "Craig Stuntz",
+            "url": "https://github.com/CraigStuntz/"
+        }
+    ],
+    "licenses": [
+        {
+            "type": "MIT",
+            "url": "https://github.com/jquery/jquery-color/blob/2.1.2/MIT-LICENSE.txt"
+        }
+    ],
+    "bugs": "https://github.com/sprucemedia/jQuery.divPlaceholder.js/issues",
+    "homepage": "https://github.com/sprucemedia/jQuery.divPlaceholder.js",
+    "dependencies": {
+        "jquery": ">=1.7"
+    }
+}
