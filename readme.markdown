@@ -20,3 +20,7 @@ Add a `data-placeholder='Your default text'` attribute to your div.
 How it works
 ------------
 The placeholder text is in a CSS `:before` pseudo element, hidden by CSS when the div has focus and by a JavaScript-controlled `data-` attribute when content is changed. [Here's a full discussion.](http://blogs.teamb.com/craigstuntz/2013/01/29/38734/)
+
+Release notes:
+- 0.1.1: 9 February 2013. Bug fix to support IE 9-10. IE 8 may work also, but I haven't tested this.
+- 0.1.0: 25 January 2013. Initial release.
