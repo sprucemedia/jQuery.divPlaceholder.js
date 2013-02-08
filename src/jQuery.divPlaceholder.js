@@ -1,10 +1,10 @@
 (function ($) {
 	$(document).on('change keydown keypress input', 'div[data-placeholder]', function() {
 		if (this.textContent) {
-			this.dataset.divPlaceholderContent = 'true';
+			this.setAttribute('data-div-placeholder-content', 'true');
 		}
 		else {
-			delete(this.dataset.divPlaceholderContent);
+			this.removeAttribute('data-div-placeholder-content');
 		}
 	});
 })(jQuery);
