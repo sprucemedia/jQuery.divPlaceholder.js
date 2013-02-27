@@ -17,6 +17,15 @@ Add a `data-placeholder='Your default text'` attribute to your div.
 <div contenteditable='true' class='editable' data-placeholder='Enter some text'></div>
 ```
 
+Updating div text in code
+-------------------------
+
+If you update the `div` text in JavaScript (instead of just typing into the ```div``` on the page), no events are fired, and you must let the plugin know that you've changed the contents by triggering the ```change``` event, like this:
+
+```javascript
+$("#some_div_id").text("New inner text").trigger("change");
+```
+
 How it works
 ------------
 The placeholder text is in a CSS `:before` pseudo element, hidden by CSS when the div has focus and by a JavaScript-controlled `data-` attribute when content is changed. [Here's a full discussion.](http://blogs.teamb.com/craigstuntz/2013/01/29/38734/)
