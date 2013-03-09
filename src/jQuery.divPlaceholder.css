@@ -1,4 +1,4 @@
-div[data-placeholder]:not(:focus):not([data-div-placeholder-content]):before {
+*[data-placeholder]:not(:focus):not([data-div-placeholder-content]):before {
     content: attr(data-placeholder);
     float: left;
     margin-left: 2px;
