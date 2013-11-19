@@ -1,0 +1,14 @@
+{
+  "name": "jQuery.divPlaceholder.js",
+  "version": "0.1.1",
+  "homepage": "https://github.com/sprucemedia/jQuery.divPlaceholder.js",
+  "authors": [
+    "azzamallow <azzamallow@gmail.com>"
+  ],
+  "description": "A mostly-CSS-with-a-bit-of-jQuery plugin to emulate the placeholder attribute for contenteditable divs.",
+  "main": "./src/jQuery.divPlaceholder.js",
+  "keywords": [
+    "contenteditable"
+  ],
+  "license": "MIT"
+}
